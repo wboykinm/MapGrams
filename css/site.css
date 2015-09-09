@@ -2,6 +2,10 @@ body {
 	overflow: hidden;
 	height: 100%;
 }
+h1 {
+	font-family: 'Special Elite', cursive;
+	color: #000000;
+}
 #map{
 	position: absolute;
 	top: 42px;
@@ -37,6 +41,8 @@ form {
 
 .leaflet-marker-icon {
 	border-radius: 4px;
+	border-width: 3px;
+	border-color: #ffffff;
 }
 
 .my-div-icon {
